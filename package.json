@@ -1,0 +1,15 @@
+{
+  "name": "estrazione_links",
+  "version": "1.0.0",
+  "description": "Script per estrarre link da Immobiliare.it e aggiornarli su Google Sheets",
+  "main": "Estrazione_Links.js",
+  "scripts": {
+    "start": "node Estrazione_Links.js"
+  },
+  "dependencies": {
+    "googleapis": "^121.0.0",
+    "puppeteer": "^23.11.0"
+  },
+  "author": "Tuo Nome",
+  "license": "MIT"
+}
